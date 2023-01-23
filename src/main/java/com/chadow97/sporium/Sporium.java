@@ -46,6 +46,7 @@ public class Sporium
 
     public Sporium()
     {
+        //test
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
